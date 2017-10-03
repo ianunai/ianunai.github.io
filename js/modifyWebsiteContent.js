@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 	// append books
 	$('#books').append('<b>Books</b><br>');
-	$('#books').append('Read <em>Modern Romance</em> by Aziz Ansari and <em>How to Fly a Horse</em> by Kevin Ashton<br>');
+	$('#books').append('Read <em>How to Fly a Horse</em> by Kevin Ashton<br>');
 	$('#books').append('Currently reading <em>The American Spirit</em> by David McCullough<br>');
 
 	// append hackathons
