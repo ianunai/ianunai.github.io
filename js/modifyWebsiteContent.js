@@ -1,7 +1,8 @@
 $(document).ready(function() {
 	
 	// append education details
-	$('#education').append('Sophomore with major in <em>Computer Science</em> and minor in <em>Management</em>');
+	$('#education').append('Sophomore with major in <em>Computer Science</em> and minor in <em>Management</em><br>');
+	$('#education').append('Interested in <em>Machine Learning</em>, <em>Security</em> and <em>Database & Information Systems</em>');
 	
 	// append classes taking
 	$('#coursework').append('<b>Coursework - Fall 2017</b><br>');
@@ -11,8 +12,10 @@ $(document).ready(function() {
 
 	// append books
 	$('#books').append('<b>Books</b><br>');
-	$('#books').append('Read <em>How to Fly a Horse</em> by Kevin Ashton<br>');
-	$('#books').append('Currently reading <em>The American Spirit</em> by David McCullough<br>');
+	$('#books').append('<em>How to Fly a Horse</em> by Kevin Ashton<br>');
+	$('#books').append('<em>The American Spirit</em> by David McCullough<br>');
+	$('#books').append('<em>Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future</em> by Ashlee Vance<br>');
+	$('#books').append('<em>The Soul of Rumi</em> by Coleman Barks<br>');
 
 	// append hackathons
 	$('#hackathons').append('<b>Hackathons</b><br>');
