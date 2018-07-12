@@ -63,8 +63,8 @@ $(document).ready(function() {
 		"author" : "David Bornstein"
 	},
 	{
-		"name" : "The Professional: Defining the New Standard of Excellence at Work",
-		"author" : "Subroto Bagchi"
+		"name" : "Shoe Dog",
+		"author" : "Phil Knight"
 	},
 	{	
 		"name" : "The American Spirit",
@@ -77,7 +77,7 @@ $(document).ready(function() {
 ];
 
 	// append education details
-	education.append('Sophomore with major in <em>Computer Science</em> and minor in <em>Management</em><br>');
+	education.append('Rising junior with major in <em>Computer Science</em> and minor in <em>Management</em><br>');
 	education.append('Interested in <em>Machine Learning</em> and <em>Software Engineering</em>');
 	
 	// append classes currently taking
